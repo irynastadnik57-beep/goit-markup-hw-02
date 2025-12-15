@@ -18,7 +18,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -56,13 +56,14 @@ a {
 
 /*----------------------------- Main styles------------------------------ */
 
-.most {
+.hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  background: #2e2f42;
 }
 
 .button-header {
@@ -76,10 +77,20 @@ a {
   cursor: pointer;
 }
 
-.subtitle {
+button:hover {
+  background-color: #404bbf;
+}
+
+button:focus {
+  border: #404bbf;
+}
+.hero-section {
   background: #2e2f42;
 }
 
+.button-header:focus {
+  color: #fff;
+}
 /*----------------------------- Features styles------------------------------ */
 
 .features-subtitle {
@@ -99,7 +110,7 @@ a {
 
 /*----------------------------- Team styles------------------------------ */
 
-.we {
+.team-section {
   background: #f4f4fd;
 }
 
@@ -129,6 +140,10 @@ a {
   color: #434455;
 }
 
+.team-list {
+  background-color: #fff;
+}
+
 /*-------------------------Portfolio styles---------------------------------*/
 
 .portfolio {
@@ -145,6 +160,14 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 /*----------------------------- Footer styles------------------------------ */
