@@ -77,20 +77,15 @@ a {
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #404bbf;
-}
-
-button:focus {
-  border: #404bbf;
-}
 .hero-section {
   background: #2e2f42;
 }
 
+.button-header:hover,
 .button-header:focus {
-  color: #fff;
+  color: #404bbf;
 }
+
 /*----------------------------- Features styles------------------------------ */
 
 .features-subtitle {
@@ -140,7 +135,7 @@ button:focus {
   color: #434455;
 }
 
-.team-list {
+.team-item {
   background-color: #fff;
 }
 
