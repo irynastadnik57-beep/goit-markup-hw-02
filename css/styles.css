@@ -84,6 +84,7 @@ a {
 .button-header:hover,
 .button-header:focus {
   color: #404bbf;
+  background: #404bbf;
 }
 
 /*----------------------------- Features styles------------------------------ */
